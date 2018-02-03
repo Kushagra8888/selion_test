@@ -1,0 +1,17 @@
+
+   /**
+      * <alias>Button                For Button html element.
+      * <alias>CheckBox              For Check Box html element.
+      * <alias>DatePicker            For Date Picker html element.
+      * <alias>Form                  For Form html element.
+      * <alias>Image                 For Image html element.
+      * <alias>Label                 For Label html element.
+      * <alias>Link                  For Link html element.
+      * <alias>RadioButton           For Radio Button html element.
+      * <alias>List                  For Select List html element.
+      * <alias>Table                 For Table html element.
+      * <alias>TextField             For Text Field html element.
+      * <alias>Container             For Container html element. */
+
+
+mvn clean test -DsuiteXmlFile=src/test/resources/xDataGeneration_PayPal.xml -DBase_Url=https://testbits.net/h1-paypal-buttons

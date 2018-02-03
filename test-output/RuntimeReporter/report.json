@@ -1,0 +1,915 @@
+{
+  "reportSummary": {
+    "testMethodsSummary": {
+      "passed": 69,
+      "failed": 0,
+      "skipped": 0
+    },
+    "configurationMethodsSummary": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "testMethods": [
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetAllDataAsHashtable",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:49.846-08:00",
+      "endTime": "2018-01-04T13:29:49.988-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetAllDataFromDocuments",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:49.994-08:00",
+      "endTime": "2018-01-04T13:29:50.025-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetAllDataFromList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.029-08:00",
+      "endTime": "2018-01-04T13:29:50.054-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetAllDataFromMap",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.058-08:00",
+      "endTime": "2018-01-04T13:29:50.075-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetAllDataFromStringList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.079-08:00",
+      "endTime": "2018-01-04T13:29:50.089-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetAllDataFromTaggedList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.094-08:00",
+      "endTime": "2018-01-04T13:29:50.110-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetDataByARangeOfIndexes",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.117-08:00",
+      "endTime": "2018-01-04T13:29:50.154-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetDataByASingleIndex",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.161-08:00",
+      "endTime": "2018-01-04T13:29:50.179-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetDataByASingleKey",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.184-08:00",
+      "endTime": "2018-01-04T13:29:50.204-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetDataByIndividualAndRangeOfIndexes",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.209-08:00",
+      "endTime": "2018-01-04T13:29:50.225-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetDataByMultipleIndexes",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.229-08:00",
+      "endTime": "2018-01-04T13:29:50.247-08:00"
+    },
+    {
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "howToGetDataByMultipleKeys",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.252-08:00",
+      "endTime": "2018-01-04T13:29:50.266-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d1, email\u003duser1@paypal.com, txId\u003d10686626}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArray",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.275-08:00",
+      "endTime": "2018-01-04T13:29:50.280-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d2, email\u003duser2@paypal.com, txId\u003d10686627}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArray",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.285-08:00",
+      "endTime": "2018-01-04T13:29:50.290-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d1, email\u003duser1@paypal.com, txId\u003d10686626}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfArrays",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.297-08:00",
+      "endTime": "2018-01-04T13:29:50.302-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d2, email\u003duser2@paypal.com, txId\u003d10686627}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfArrays",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.306-08:00",
+      "endTime": "2018-01-04T13:29:50.310-08:00"
+    },
+    {
+      "parameters": [
+        "[1, user1@paypal.com, 10686626]"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfLists",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.317-08:00",
+      "endTime": "2018-01-04T13:29:50.321-08:00"
+    },
+    {
+      "parameters": [
+        "[2, user2@paypal.com, 10686627]"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfLists",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.328-08:00",
+      "endTime": "2018-01-04T13:29:50.332-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Nemo\u0027, password\u003d\u0027password\u0027, accountNumber\u003d78901, amount\u003d120.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-408-666-5508\u0027, preintTest\u003d10, isbooleanGood\u003dfalse, doubleTest\u003d1340.24, longTest\u003d599880, floatTest\u003d0.002, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.342-08:00",
+      "endTime": "2018-01-04T13:29:50.352-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Rambo\u0027, password\u003d\u0027abc123\u0027, accountNumber\u003d123456, amount\u003d100.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}, AreaCode{areaCode\u003d\u0027650\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-408-225-8040\u0027, preintTest\u003d12, isbooleanGood\u003dtrue, doubleTest\u003d12.5, longTest\u003d167045, floatTest\u003d12.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.355-08:00",
+      "endTime": "2018-01-04T13:29:50.360-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Shifu\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d124567, amount\u003d200.5, areaCode\u003d[AreaCode{areaCode\u003d\u0027317\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027701\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-714-666-0043\u0027, preintTest\u003d14, isbooleanGood\u003dtrue, doubleTest\u003d13.5, longTest\u003d1234, floatTest\u003d13.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.365-08:00",
+      "endTime": "2018-01-04T13:29:50.374-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.379-08:00",
+      "endTime": "2018-01-04T13:29:50.384-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027null\u0027, password\u003d\u0027null\u0027, accountNumber\u003d385749204, amount\u003dnull, areaCode\u003dnull, bank\u003dnull, phoneNumber\u003d\u0027null\u0027, preintTest\u003d0, isbooleanGood\u003dfalse, doubleTest\u003d0.0, longTest\u003d0, floatTest\u003d0.0, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetAssociativeArrayOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.387-08:00",
+      "endTime": "2018-01-04T13:29:50.391-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Nemo\u0027, password\u003d\u0027password\u0027, accountNumber\u003d78901, amount\u003d120.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-408-666-5508\u0027, preintTest\u003d10, isbooleanGood\u003dfalse, doubleTest\u003d1340.24, longTest\u003d599880, floatTest\u003d0.002, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByIndex",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.404-08:00",
+      "endTime": "2018-01-04T13:29:50.409-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Rambo\u0027, password\u003d\u0027abc123\u0027, accountNumber\u003d123456, amount\u003d100.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}, AreaCode{areaCode\u003d\u0027650\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-408-225-8040\u0027, preintTest\u003d12, isbooleanGood\u003dtrue, doubleTest\u003d12.5, longTest\u003d167045, floatTest\u003d12.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByIndex",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.413-08:00",
+      "endTime": "2018-01-04T13:29:50.417-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Shifu\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d124567, amount\u003d200.5, areaCode\u003d[AreaCode{areaCode\u003d\u0027317\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027701\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-714-666-0043\u0027, preintTest\u003d14, isbooleanGood\u003dtrue, doubleTest\u003d13.5, longTest\u003d1234, floatTest\u003d13.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByIndex",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.421-08:00",
+      "endTime": "2018-01-04T13:29:50.425-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByIndex",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.429-08:00",
+      "endTime": "2018-01-04T13:29:50.432-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027null\u0027, password\u003d\u0027null\u0027, accountNumber\u003d385749204, amount\u003dnull, areaCode\u003dnull, bank\u003dnull, phoneNumber\u003d\u0027null\u0027, preintTest\u003d0, isbooleanGood\u003dfalse, doubleTest\u003d0.0, longTest\u003d0, floatTest\u003d0.0, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByIndex",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.436-08:00",
+      "endTime": "2018-01-04T13:29:50.440-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByIndex",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.444-08:00",
+      "endTime": "2018-01-04T13:29:50.450-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Nemo\u0027, password\u003d\u0027password\u0027, accountNumber\u003d78901, amount\u003d120.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-408-666-5508\u0027, preintTest\u003d10, isbooleanGood\u003dfalse, doubleTest\u003d1340.24, longTest\u003d599880, floatTest\u003d0.002, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByKeys",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.463-08:00",
+      "endTime": "2018-01-04T13:29:50.472-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Rambo\u0027, password\u003d\u0027abc123\u0027, accountNumber\u003d123456, amount\u003d100.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}, AreaCode{areaCode\u003d\u0027650\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-408-225-8040\u0027, preintTest\u003d12, isbooleanGood\u003dtrue, doubleTest\u003d12.5, longTest\u003d167045, floatTest\u003d12.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByKeys",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.476-08:00",
+      "endTime": "2018-01-04T13:29:50.482-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Shifu\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d124567, amount\u003d200.5, areaCode\u003d[AreaCode{areaCode\u003d\u0027317\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027701\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-714-666-0043\u0027, preintTest\u003d14, isbooleanGood\u003dtrue, doubleTest\u003d13.5, longTest\u003d1234, floatTest\u003d13.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByKeys",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.488-08:00",
+      "endTime": "2018-01-04T13:29:50.493-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDataByKeys",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.500-08:00",
+      "endTime": "2018-01-04T13:29:50.506-08:00"
+    },
+    {
+      "parameters": [
+        "[string1, string2, string3]"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedLists",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.514-08:00",
+      "endTime": "2018-01-04T13:29:50.517-08:00"
+    },
+    {
+      "parameters": [
+        "[string1, string2, string3]"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedLists",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.520-08:00",
+      "endTime": "2018-01-04T13:29:50.523-08:00"
+    },
+    {
+      "parameters": [
+        "{item1\u003dstring1, item2\u003dstring2, item3\u003dstring3}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedLists",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.535-08:00",
+      "endTime": "2018-01-04T13:29:50.540-08:00"
+    },
+    {
+      "parameters": [
+        "{item1\u003dstring1, item2\u003dstring2, item3\u003dstring3}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedLists",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.543-08:00",
+      "endTime": "2018-01-04T13:29:50.547-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Nemo\u0027, password\u003d\u0027password\u0027, accountNumber\u003d78901, amount\u003d120.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-408-666-5508\u0027, preintTest\u003d10, isbooleanGood\u003dfalse, doubleTest\u003d1340.24, longTest\u003d599880, floatTest\u003d0.002, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.564-08:00",
+      "endTime": "2018-01-04T13:29:50.571-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Rambo\u0027, password\u003d\u0027abc123\u0027, accountNumber\u003d123456, amount\u003d100.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}, AreaCode{areaCode\u003d\u0027650\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-408-225-8040\u0027, preintTest\u003d12, isbooleanGood\u003dtrue, doubleTest\u003d12.5, longTest\u003d167045, floatTest\u003d12.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.575-08:00",
+      "endTime": "2018-01-04T13:29:50.581-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Shifu\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d124567, amount\u003d200.5, areaCode\u003d[AreaCode{areaCode\u003d\u0027317\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027701\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-714-666-0043\u0027, preintTest\u003d14, isbooleanGood\u003dtrue, doubleTest\u003d13.5, longTest\u003d1234, floatTest\u003d13.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.584-08:00",
+      "endTime": "2018-01-04T13:29:50.588-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.592-08:00",
+      "endTime": "2018-01-04T13:29:50.596-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027null\u0027, password\u003d\u0027null\u0027, accountNumber\u003d385749204, amount\u003dnull, areaCode\u003dnull, bank\u003dnull, phoneNumber\u003d\u0027null\u0027, preintTest\u003d0, isbooleanGood\u003dfalse, doubleTest\u003d0.0, longTest\u003d0, floatTest\u003d0.0, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.600-08:00",
+      "endTime": "2018-01-04T13:29:50.605-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetDocumentSeparatedUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.608-08:00",
+      "endTime": "2018-01-04T13:29:50.614-08:00"
+    },
+    {
+      "parameters": [
+        "string1"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.625-08:00",
+      "endTime": "2018-01-04T13:29:50.629-08:00"
+    },
+    {
+      "parameters": [
+        "string2"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.632-08:00",
+      "endTime": "2018-01-04T13:29:50.638-08:00"
+    },
+    {
+      "parameters": [
+        "string3"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.641-08:00",
+      "endTime": "2018-01-04T13:29:50.645-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d1, email\u003duser1@paypal.com, txId\u003d10686626}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfAssociativeArrays",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.652-08:00",
+      "endTime": "2018-01-04T13:29:50.655-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d2, email\u003duser2@paypal.com, txId\u003d10686627}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfAssociativeArrays",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.658-08:00",
+      "endTime": "2018-01-04T13:29:50.662-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d1, email\u003duser1@paypal.com, txId\u003d10686626}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfAssociativeArrays",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.667-08:00",
+      "endTime": "2018-01-04T13:29:50.671-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d2, email\u003duser2@paypal.com, txId\u003d10686627}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfAssociativeArrays",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.674-08:00",
+      "endTime": "2018-01-04T13:29:50.678-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d1, email\u003duser1@paypal.com, txId\u003d10686626}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfAssociativeArrays",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.686-08:00",
+      "endTime": "2018-01-04T13:29:50.690-08:00"
+    },
+    {
+      "parameters": [
+        "{name\u003d2, email\u003duser2@paypal.com, txId\u003d10686627}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfAssociativeArrays",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.694-08:00",
+      "endTime": "2018-01-04T13:29:50.698-08:00"
+    },
+    {
+      "parameters": [
+        "[1, alex@getcontrol.co, MEzz55me!]"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfLists",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.704-08:00",
+      "endTime": "2018-01-04T13:29:50.707-08:00"
+    },
+    {
+      "parameters": [
+        "[2, user2@paypal.com, 10686627]"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfLists",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.711-08:00",
+      "endTime": "2018-01-04T13:29:50.715-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Nemo\u0027, password\u003d\u0027password\u0027, accountNumber\u003d78901, amount\u003d120.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-408-666-5508\u0027, preintTest\u003d10, isbooleanGood\u003dfalse, doubleTest\u003d1340.24, longTest\u003d599880, floatTest\u003d0.002, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.725-08:00",
+      "endTime": "2018-01-04T13:29:50.729-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Rambo\u0027, password\u003d\u0027abc123\u0027, accountNumber\u003d123456, amount\u003d100.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}, AreaCode{areaCode\u003d\u0027650\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-408-225-8040\u0027, preintTest\u003d12, isbooleanGood\u003dtrue, doubleTest\u003d12.5, longTest\u003d167045, floatTest\u003d12.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.731-08:00",
+      "endTime": "2018-01-04T13:29:50.735-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Shifu\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d124567, amount\u003d200.5, areaCode\u003d[AreaCode{areaCode\u003d\u0027317\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027701\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-714-666-0043\u0027, preintTest\u003d14, isbooleanGood\u003dtrue, doubleTest\u003d13.5, longTest\u003d1234, floatTest\u003d13.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.738-08:00",
+      "endTime": "2018-01-04T13:29:50.742-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.746-08:00",
+      "endTime": "2018-01-04T13:29:50.750-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027null\u0027, password\u003d\u0027null\u0027, accountNumber\u003d385749204, amount\u003dnull, areaCode\u003dnull, bank\u003dnull, phoneNumber\u003d\u0027null\u0027, preintTest\u003d0, isbooleanGood\u003dfalse, doubleTest\u003d0.0, longTest\u003d0, floatTest\u003d0.0, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.753-08:00",
+      "endTime": "2018-01-04T13:29:50.757-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetListOfUsers",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.760-08:00",
+      "endTime": "2018-01-04T13:29:50.766-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Nemo\u0027, password\u003d\u0027password\u0027, accountNumber\u003d78901, amount\u003d120.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-408-666-5508\u0027, preintTest\u003d10, isbooleanGood\u003dfalse, doubleTest\u003d1340.24, longTest\u003d599880, floatTest\u003d0.002, byteTest\u003d0}",
+        "UserInformation{name\u003d\u0027Nemo\u0027, password\u003d\u0027password\u0027, accountNumber\u003d78901, amount\u003d120.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-408-666-5508\u0027, preintTest\u003d10, isbooleanGood\u003dfalse, doubleTest\u003d1340.24, longTest\u003d599880, floatTest\u003d0.002, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetMultipleArguments",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.788-08:00",
+      "endTime": "2018-01-04T13:29:50.800-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Rambo\u0027, password\u003d\u0027abc123\u0027, accountNumber\u003d123456, amount\u003d100.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}, AreaCode{areaCode\u003d\u0027650\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-408-225-8040\u0027, preintTest\u003d12, isbooleanGood\u003dtrue, doubleTest\u003d12.5, longTest\u003d167045, floatTest\u003d12.5, byteTest\u003d0}",
+        "UserInformation{name\u003d\u0027Rambo\u0027, password\u003d\u0027abc123\u0027, accountNumber\u003d123456, amount\u003d100.0, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}, AreaCode{areaCode\u003d\u0027650\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-408-225-8040\u0027, preintTest\u003d12, isbooleanGood\u003dtrue, doubleTest\u003d12.5, longTest\u003d167045, floatTest\u003d12.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetMultipleArguments",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.807-08:00",
+      "endTime": "2018-01-04T13:29:50.815-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Shifu\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d124567, amount\u003d200.5, areaCode\u003d[AreaCode{areaCode\u003d\u0027317\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027701\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-714-666-0043\u0027, preintTest\u003d14, isbooleanGood\u003dtrue, doubleTest\u003d13.5, longTest\u003d1234, floatTest\u003d13.5, byteTest\u003d0}",
+        "UserInformation{name\u003d\u0027Shifu\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d124567, amount\u003d200.5, areaCode\u003d[AreaCode{areaCode\u003d\u0027317\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027701\u0027}], bank\u003dBankInformation{name\u003d\u0027Well fargo\u0027, type\u003d\u0027savings\u0027, address\u003dAddressInformation{street\u003d\u002712 Pico st\u0027}}, phoneNumber\u003d\u00271-714-666-0043\u0027, preintTest\u003d14, isbooleanGood\u003dtrue, doubleTest\u003d13.5, longTest\u003d1234, floatTest\u003d13.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetMultipleArguments",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.819-08:00",
+      "endTime": "2018-01-04T13:29:50.823-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}",
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetMultipleArguments",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.827-08:00",
+      "endTime": "2018-01-04T13:29:50.831-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027null\u0027, password\u003d\u0027null\u0027, accountNumber\u003d385749204, amount\u003dnull, areaCode\u003dnull, bank\u003dnull, phoneNumber\u003d\u0027null\u0027, preintTest\u003d0, isbooleanGood\u003dfalse, doubleTest\u003d0.0, longTest\u003d0, floatTest\u003d0.0, byteTest\u003d0}",
+        "UserInformation{name\u003d\u0027null\u0027, password\u003d\u0027null\u0027, accountNumber\u003d385749204, amount\u003dnull, areaCode\u003dnull, bank\u003dnull, phoneNumber\u003d\u0027null\u0027, preintTest\u003d0, isbooleanGood\u003dfalse, doubleTest\u003d0.0, longTest\u003d0, floatTest\u003d0.0, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetMultipleArguments",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.835-08:00",
+      "endTime": "2018-01-04T13:29:50.843-08:00"
+    },
+    {
+      "parameters": [
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}",
+        "UserInformation{name\u003d\u0027Simba\u0027, password\u003d\u0027abc124\u0027, accountNumber\u003d1234567, amount\u003d300.75, areaCode\u003d[AreaCode{areaCode\u003d\u0027501\u0027}, AreaCode{areaCode\u003d\u0027301\u0027}, AreaCode{areaCode\u003d\u0027408\u0027}], bank\u003dBankInformation{name\u003d\u0027BOA\u0027, type\u003d\u0027checking\u0027, address\u003dAddressInformation{street\u003d\u00271234 Elm st\u0027}}, phoneNumber\u003d\u00271-213-580-6070\u0027, preintTest\u003d17, isbooleanGood\u003dfalse, doubleTest\u003d14.5, longTest\u003d456567, floatTest\u003d14.5, byteTest\u003d0}"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetMultipleArguments",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.846-08:00",
+      "endTime": "2018-01-04T13:29:50.850-08:00"
+    },
+    {
+      "parameters": [
+        "string1",
+        "string1"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetStringList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.860-08:00",
+      "endTime": "2018-01-04T13:29:50.871-08:00"
+    },
+    {
+      "parameters": [
+        "string2",
+        "string2"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetStringList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.875-08:00",
+      "endTime": "2018-01-04T13:29:50.880-08:00"
+    },
+    {
+      "parameters": [
+        "string3",
+        "string3"
+      ],
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "testDataProviderGetStringList",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:50.884-08:00",
+      "endTime": "2018-01-04T13:29:50.888-08:00"
+    }
+  ],
+  "configurationMethods": [
+    {
+      "type": "BeforeClass",
+      "suite": "Default Suite",
+      "test": "SeLion-Parent",
+      "packageInfo": "com.selion.framework.sampletests",
+      "className": "YamlPoweredDataDrivenTest",
+      "methodName": "initializeTestDataForComparison",
+      "status": "Passed",
+      "startTime": "2018-01-04T13:29:49.737-08:00",
+      "endTime": "2018-01-04T13:29:49.761-08:00",
+      "description": ""
+    }
+  ],
+  "configSummary": {
+    "currentDate": "2018-01-04T13:29:49.699-08:00"
+  },
+  "localConfigSummary": [
+    {
+      "currentDate": "2018-01-04T13:29:49.718-08:00",
+      "suite": "Default Suite",
+      "test": "SeLion-Parent"
+    }
+  ],
+  "reporterMetadata": {
+    "currentDate": {
+      "displayLabel": "Current Date"
+    }
+  }
+}

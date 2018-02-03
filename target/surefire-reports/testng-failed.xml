@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [xDataGeneration_PayPal.xml]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="runLocally" value="true"/>
+  <parameter name="downloadDependencies" value="false"/>
+  <test name="ControlBoard v.5x">
+    <classes>
+      <class name="com.selion.framework.testsWeb.DataGeneration_PayPal_Transactions"/>
+    </classes>
+  </test> <!-- ControlBoard v.5x -->
+</suite> <!-- Failed suite [xDataGeneration_PayPal.xml] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-02-03T03:59:15Z" name="xDataGeneration_PayPal.xml" finished-at="2018-02-03T04:00:08Z" duration-ms="53040">
+    <groups>
+    </groups>
+    <test started-at="2018-02-03T03:59:15Z" name="ControlBoard v.5x" finished-at="2018-02-03T04:00:08Z" duration-ms="53040">
+      <class name="com.selion.framework.testsWeb.DataGeneration_PayPal_Transactions">
+        <test-method is-config="true" signature="startLocalServer()[pri:0, instance:com.selion.framework.testsWeb.DataGeneration_PayPal_Transactions@5c7bfdc1]" started-at="2018-02-02T19:59:15Z" name="startLocalServer" finished-at="2018-02-02T19:59:15Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startLocalServer -->
+        <test-method signature="generateTestData_PayPal_Transactions_GuestCheckout()[pri:0, instance:com.selion.framework.testsWeb.DataGeneration_PayPal_Transactions@5c7bfdc1]" started-at="2018-02-02T19:59:15Z" name="generateTestData_PayPal_Transactions_GuestCheckout" finished-at="2018-02-02T20:00:08Z" duration-ms="52588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestData_PayPal_Transactions_GuestCheckout -->
+        <test-method is-config="true" signature="shutdownLocalServer()[pri:0, instance:com.selion.framework.testsWeb.DataGeneration_PayPal_Transactions@5c7bfdc1]" started-at="2018-02-02T20:00:08Z" name="shutdownLocalServer" finished-at="2018-02-02T20:00:08Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownLocalServer -->
+      </class> <!-- com.selion.framework.testsWeb.DataGeneration_PayPal_Transactions -->
+    </test> <!-- ControlBoard v.5x -->
+  </suite> <!-- xDataGeneration_PayPal.xml -->
+</testng-results>
