@@ -1,4 +1,0 @@
-com/selion/framework/testsWeb/DataGeneration_PayPal_Transactions.class
-com/selion/framework/common_actions/CommonActions.class
-com/selion/framework/pagesPayPal/PayPal_CheckOut.class
-com/selion/framework/dataobjects/PayPalData.class
