@@ -1,11 +1,6 @@
-![ @](https://www.getcontrol.co/wp-content/uploads/2016/01/dark-medium-transparent.png)
-![](http://paypal.github.io/SeLion/images/selion-horiz-notag.svg)
 
 
-
-
-
-# ControlBoard UI Automation project:
+#  UI Automation project:
  
 Project based on open source automation framework named SeLion - 
 Selenium WebDriver API implementation developed and supported by PayPal engineers.
@@ -40,7 +35,6 @@ Selenium Grid with browser nodes can be configured via Docker containers.
 See step by step guide how to download and run containers on Confluence: 
 
 
-* [Run Selenium Hub as a Docker container](https://getcontrol.atlassian.net/wiki/display/ENG/Run+Selenium+Hub+as+a+Docker+container)
 
 
 # Resources (Control):
@@ -50,11 +44,7 @@ See step by step guide how to download and run containers on Confluence:
 mvn clean test -DsuiteXmlFile=src/test/resources/YourTestSuiteFile.xml -DBase_Url=https://int-controlboard.getcontrol.co
 ``
 
-* Steps to run REMOTE test:  
-         
-  We will be running tests via Jenkins job with tests pointing to Selenium Grid configured above.
-  
-  
+
 
     
 
