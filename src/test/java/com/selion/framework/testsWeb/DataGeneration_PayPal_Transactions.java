@@ -9,11 +9,16 @@ package com.selion.framework.testsWeb;
 
 import com.paypal.selion.annotations.WebTest;
 import com.paypal.selion.logger.SeLionLogger;
+import com.paypal.selion.platform.dataprovider.DataResource;
 import com.paypal.selion.platform.dataprovider.ExcelDataProvider;
+import com.paypal.selion.platform.dataprovider.SeLionDataProvider;
+import com.paypal.selion.platform.dataprovider.impl.FileSystemResource;
 import com.paypal.selion.platform.grid.Grid;
 import com.paypal.selion.platform.utilities.WebDriverWaitUtils;
+import com.paypal.selion.platform.dataprovider.DataProviderFactory;
 
 import com.selion.framework.common_actions.CommonActions;
+import com.selion.framework.dataobjects.PayPalData;
 import com.selion.framework.pagesPayPal.*;
 import com.selion.framework.utilities.server.TestServerUtils;
 import com.selion.framework.utilities.testdata.TestParameters;
@@ -21,6 +26,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.Calendar;
@@ -58,20 +64,6 @@ public class DataGeneration_PayPal_Transactions {
     /* Base URL */
     protected String baseURL = System.getProperty("Base_Url");
 
-
-    /* Usernames and Passwords*/
-    final private String cardNumber = "4916053614944639";
-    final private String expiryDate = "12/23";
-    final private String CSC = "654";
-    final private String firstName = "Brenda";
-    final private String lastName = "Lloyd";
-    final private String streetAddress = "123 Terminal avenue";
-    final private String city = "Los Angeles";
-    final private String state = "Alabama";
-    final private String ZIP = "90001";
-    final private String phoneNumber = "612-532-8304";
-    final private String emailAddress = "paypal.user@test-ing.com";
-
     /* YAML pages */
     PayPal_CheckOut paypalCKO = new PayPal_CheckOut("US");
 
@@ -80,15 +72,24 @@ public class DataGeneration_PayPal_Transactions {
 //    public static final String expected_txt_LogInLabel = "Log In";
 //    public static final String expectLoginButtonText = "LOGIN";
 
+    @DataProvider(name = "excelDataProvider")
+    public Object[][] getExcelDataProvider() throws Exception {
+    DataResource resource =
+        new FileSystemResource("src/test/resources/testdata/MyDataFile.xls",
+                            PayPalData.class);
+    SeLionDataProvider dataProvider =
+        DataProviderFactory.getDataProvider(resource);
+    return dataProvider.getAllData();
+    }
 
 /*----------------------------------------------------------------------------------------------------------------------
  WEB TESTS
 ----------------------------------------------------------------------------------------------------------------------*/
 
-    @Test
+    @Test(dataProvider = "excelDataProvider")
     @WebTest(additionalCapabilities = {"useBooleanCaps:true", "key:value"})
-    public void generateTestData_PayPal_Transactions_GuestCheckout() throws Exception {
-    /* Test description:
+    public void generateTestData_PayPal_Transactions_GuestCheckout(PayPalData data) throws Exception {
+        /* Test description:
         1. Open Checkout page for sandbox transactions
          */
 
@@ -110,23 +111,23 @@ public class DataGeneration_PayPal_Transactions {
         user.wait5Seconds();
 
         //Fill PayPal Guest Checkout form
-        paypalCKO.getCardNumberTextField().type(cardNumber);
-        paypalCKO.getExpiryValueTextField().type(expiryDate);
-        paypalCKO.getCvvTextField().type(CSC);
+        paypalCKO.getCardNumberTextField().type(data.getCardNumber());
+        paypalCKO.getExpiryValueTextField().type(data.getExpiryDate());
+        paypalCKO.getCvvTextField().type(data.getCsc());
 
         user.wait2Seconds();
 
-        paypalCKO.getFirstNameTextField().type(firstName);
-        paypalCKO.getLastNameTextField().type(lastName);
-        paypalCKO.getBillingAddressTextField().type(streetAddress);
-        paypalCKO.getBillingCityTextField().type(city);
+        paypalCKO.getFirstNameTextField().type(data.getFirstName());
+        paypalCKO.getLastNameTextField().type(data.getLastName());
+        paypalCKO.getBillingAddressTextField().type(data.getStreetAddress());
+        paypalCKO.getBillingCityTextField().type(data.getCity());
         paypalCKO.getBillingStateList().addSelectionByLabel("California");
-        paypalCKO.getBillingZIPTextField().type(ZIP);
+        paypalCKO.getBillingZIPTextField().type(data.getZip());
 
         user.wait2Seconds();
 
-        paypalCKO.getPhoneNumberTextField().type(phoneNumber);
-        paypalCKO.getEmailTextField().type(emailAddress);
+        paypalCKO.getPhoneNumberTextField().type(data.getPhoneNumber());
+        paypalCKO.getEmailTextField().type(data.getEmailAddress());
 
         user.wait3Seconds();
 
@@ -134,7 +135,7 @@ public class DataGeneration_PayPal_Transactions {
         user.wait10Seconds();
 
         user.wait10Seconds();
-        
+
         logger.get().info("\n" + "### ### ### COMPLETED: " + className + "\n");
     }
 

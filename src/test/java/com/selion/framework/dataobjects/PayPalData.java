@@ -24,58 +24,121 @@ package com.selion.framework.dataobjects;
  */
 public class PayPalData {
 
-    private String Country;
-    private String Card;
-    private String Csc;
-    private String First;
-    private String Last;
-    private String Address;
-    private String City;
-    private String State;
-    private String Zip;
-    private String Phone;
-    private String Email;
+    private String cardNumber;
+    private String expiryDate;
+    private String csc;
+    private String firstName;
+    private String lastName;
+    private String streetAddress;
+    private String city;
+    private String state;
+    private String zip;
+    private String phoneNumber;
+    private String emailAddress;
 
+    public String getCardNumber() {
+        return cardNumber;
+    }
 
-    public String getCountry () { return Country;}
-    public void setCountry (String Country) { this.Country = Country; }
+    public void setCardNumber(String cardNumber) {
+        this.cardNumber = cardNumber;
+    }
 
-    public String getCard () { return Card;}
-    public void setCard (String Card) { this.Card = Card; }
+    public String getExpiryDate() {
+        return expiryDate;
+    }
 
-    public String getCsc () { return Csc;}
-    public void setCsc (String Csc) { this.Csc = Csc; }
+    public void setExpiryDate(String expiryDate) {
+        this.expiryDate = expiryDate;
+    }
 
-    public String getFirst () { return First;}
-    public void setFirst (String First) { this.First = First; }
+    public String getCsc() {
+        return csc;
+    }
 
-    public String getLast () { return Last;}
-    public void setLast (String Last) { this.Last = Last; }
+    public void setCsc(String csc) {
+        this.csc = csc;
+    }
 
-    public String getAddress () { return Address;}
-    public void setAddress (String Address) { this.Address = Address; }
+    public String getFirstName() {
+        return firstName;
+    }
 
-    public String getCity () { return City;}
-    public void setCity (String City) { this.City = City; }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-    public String getState () { return State;}
-    public void setState (String State) { this.State = State; }
+    public String getLastName() {
+        return lastName;
+    }
 
-    public String getZip () { return Zip;}
-    public void setZip (String Zip) { this.Zip = Zip; }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 
-    public String getPhone () { return Phone;}
-    public void setPhone (String Phone) { this.Phone = Phone; }
+    public String getStreetAddress() {
+        return streetAddress;
+    }
 
-    public String getEmail () { return Email;}
-    public void setEmail (String Email) { this.Email = Email; }
+    public void setStreetAddress(String streetAddress) {
+        this.streetAddress = streetAddress;
+    }
 
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getZip() {
+        return zip;
+    }
+
+    public void setZip(String zip) {
+        this.zip = zip;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
 
     @Override
     public String toString () {
         final StringBuilder sb = new StringBuilder("PayPalData{");
-        sb.append(", Country='").append(Country).append('\'');
-        sb.append('}');
+        sb.append("carNumber='").append(cardNumber).append(';')
+            .append("expiryDate='").append(expiryDate).append(';')
+            .append("csc='").append(csc).append(';')
+            .append("firstName='").append(firstName).append(';')
+            .append("lastName='").append(lastName).append(';')
+            .append("streetAddress='").append(streetAddress).append(';')
+            .append("city='").append(city).append(';')
+            .append("state='").append(state).append(';')
+            .append("zip='").append(zip).append(';')
+            .append("phoneNumber='").append(phoneNumber).append(';')
+            .append("emailAddress='").append(emailAddress).append(';')
+            .append("}");
         return sb.toString();
     }
 }
